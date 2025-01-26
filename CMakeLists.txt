@@ -1,0 +1,12 @@
+cmake_minimum_required(VERSION 3.10)
+project(acc_fuzzing)
+
+set(CMAKE_CXX_STANDARD 17)
+set(SOURCE_FILES
+        src/main.cpp
+        src/acc_ucb.cpp
+        src/context_tree.cpp
+        src/js_fuzzer.cpp
+)
+
+add_executable(acc_fuzzing ${SOURCE_FILES})
