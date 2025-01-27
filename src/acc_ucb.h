@@ -32,7 +32,7 @@ private:
     std::unordered_map<int, Arm> arms;
     std::default_random_engine generator;
     
-    std::vector<std::vector<double>> reward_history;
+    std::vector<std::vector<double> > reward_history;
     double total_rewards;
     int total_plays;
 
