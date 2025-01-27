@@ -129,6 +129,7 @@ void ACC_UCB::updateArm(int armID, double reward) {
 
         double previous_count = arm.plays;
         double previous_mean = arm.reward;
+
         // 8. Update mu & C
         arm.plays++;  // C^t(x_{h,i}) update
         arm.reward = (previous_count * previous_mean + reward) / arm.plays;  // μ̂^t(x_{h,i}) update
@@ -144,6 +145,7 @@ void ACC_UCB::updateArm(int armID, double reward) {
 
         // Expand context if usage threshold is high
         if (arm.node) {
+            // 8. Update mu & C
             double prev_C = arm.node->count;
             arm.node->count++;
             arm.node->index = (prev_C * arm.node->index + reward) / arm.node->count;
@@ -212,7 +214,6 @@ void ACC_UCB::run() {
 
                 Arm& arm = arms[armID];
 
-                //
                 int mutationType = (arm.plays < 10) ? (t % 3) : (arm.node ? (arm.node->count % 3) : (armID % 3));
                 
                 try {
@@ -229,9 +230,8 @@ void ACC_UCB::run() {
             }
 
             if (t % 100 == 0) {
-                std::cout << "Round " << t << " completed. Average reward: " 
-                         << getAverageReward() << std::endl;
-                // 打印每个arm的状态
+                std::cout << "Round " << t << " completed. Average reward: "  << getAverageReward() << std::endl;
+                // Print Infos
                 for (const auto& pair : arms) {
                     std::cout << "Arm " << pair.first << " stats - Plays: " << pair.second.plays 
                              << " Reward: " << pair.second.reward 
