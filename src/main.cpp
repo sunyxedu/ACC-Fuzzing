@@ -1,20 +1,17 @@
-//
-// Created by Hemlix on 2025/1/25.
-//
-
-#include "acc_ucb.h"
+#include "ACCUCB.h"
+#include <iostream>
 
 int main() {
-    int K = 3;
-    int T = 100;
+    int    T      = 100;
+    int    K      = 2;
+    double v1     = 1.0;
+    double v2     = 0.5;
+    double rho    = 0.5;
+    int    Nchild = 2;
 
-    ACC_UCB acc_ucb(K, T);
-    
-    acc_ucb.jsFuzzer.addTemplate("function foo(x) { if(x > 0) return x; else return -x; }");
-    acc_ucb.jsFuzzer.addTemplate("for(let i=0; i<10; i++) { console.log(i*i); }");
-    acc_ucb.jsFuzzer.addTemplate("let arr = [1,2,3]; arr.forEach(x => console.log(x));");
-    
-    acc_ucb.run();
+    ACCUCB accucbAlg(T, K, v1, v2, rho, Nchild);
+    accucbAlg.run();
 
+    std::cout << "ACC-UCB 示例运行完毕。\n";
     return 0;
 }

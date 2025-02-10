@@ -129,53 +129,53 @@ acc_fuzzing/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/acc_fuzzing.dir/build.make CMakeFiles/acc_fuzzing.dir/build
 .PHONY : acc_fuzzing/fast
 
-src/acc_ucb.o: src/acc_ucb.cpp.o
-.PHONY : src/acc_ucb.o
+src/ACCUCB.o: src/ACCUCB.cpp.o
+.PHONY : src/ACCUCB.o
 
 # target to build an object file
-src/acc_ucb.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/acc_fuzzing.dir/build.make CMakeFiles/acc_fuzzing.dir/src/acc_ucb.cpp.o
-.PHONY : src/acc_ucb.cpp.o
+src/ACCUCB.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/acc_fuzzing.dir/build.make CMakeFiles/acc_fuzzing.dir/src/ACCUCB.cpp.o
+.PHONY : src/ACCUCB.cpp.o
 
-src/acc_ucb.i: src/acc_ucb.cpp.i
-.PHONY : src/acc_ucb.i
+src/ACCUCB.i: src/ACCUCB.cpp.i
+.PHONY : src/ACCUCB.i
 
 # target to preprocess a source file
-src/acc_ucb.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/acc_fuzzing.dir/build.make CMakeFiles/acc_fuzzing.dir/src/acc_ucb.cpp.i
-.PHONY : src/acc_ucb.cpp.i
+src/ACCUCB.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/acc_fuzzing.dir/build.make CMakeFiles/acc_fuzzing.dir/src/ACCUCB.cpp.i
+.PHONY : src/ACCUCB.cpp.i
 
-src/acc_ucb.s: src/acc_ucb.cpp.s
-.PHONY : src/acc_ucb.s
+src/ACCUCB.s: src/ACCUCB.cpp.s
+.PHONY : src/ACCUCB.s
 
 # target to generate assembly for a file
-src/acc_ucb.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/acc_fuzzing.dir/build.make CMakeFiles/acc_fuzzing.dir/src/acc_ucb.cpp.s
-.PHONY : src/acc_ucb.cpp.s
+src/ACCUCB.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/acc_fuzzing.dir/build.make CMakeFiles/acc_fuzzing.dir/src/ACCUCB.cpp.s
+.PHONY : src/ACCUCB.cpp.s
 
-src/context_tree.o: src/context_tree.cpp.o
-.PHONY : src/context_tree.o
+src/Node.o: src/Node.cpp.o
+.PHONY : src/Node.o
 
 # target to build an object file
-src/context_tree.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/acc_fuzzing.dir/build.make CMakeFiles/acc_fuzzing.dir/src/context_tree.cpp.o
-.PHONY : src/context_tree.cpp.o
+src/Node.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/acc_fuzzing.dir/build.make CMakeFiles/acc_fuzzing.dir/src/Node.cpp.o
+.PHONY : src/Node.cpp.o
 
-src/context_tree.i: src/context_tree.cpp.i
-.PHONY : src/context_tree.i
+src/Node.i: src/Node.cpp.i
+.PHONY : src/Node.i
 
 # target to preprocess a source file
-src/context_tree.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/acc_fuzzing.dir/build.make CMakeFiles/acc_fuzzing.dir/src/context_tree.cpp.i
-.PHONY : src/context_tree.cpp.i
+src/Node.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/acc_fuzzing.dir/build.make CMakeFiles/acc_fuzzing.dir/src/Node.cpp.i
+.PHONY : src/Node.cpp.i
 
-src/context_tree.s: src/context_tree.cpp.s
-.PHONY : src/context_tree.s
+src/Node.s: src/Node.cpp.s
+.PHONY : src/Node.s
 
 # target to generate assembly for a file
-src/context_tree.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/acc_fuzzing.dir/build.make CMakeFiles/acc_fuzzing.dir/src/context_tree.cpp.s
-.PHONY : src/context_tree.cpp.s
+src/Node.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/acc_fuzzing.dir/build.make CMakeFiles/acc_fuzzing.dir/src/Node.cpp.s
+.PHONY : src/Node.cpp.s
 
 src/js_fuzzer.o: src/js_fuzzer.cpp.o
 .PHONY : src/js_fuzzer.o
@@ -234,12 +234,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... acc_fuzzing"
-	@echo "... src/acc_ucb.o"
-	@echo "... src/acc_ucb.i"
-	@echo "... src/acc_ucb.s"
-	@echo "... src/context_tree.o"
-	@echo "... src/context_tree.i"
-	@echo "... src/context_tree.s"
+	@echo "... src/ACCUCB.o"
+	@echo "... src/ACCUCB.i"
+	@echo "... src/ACCUCB.s"
+	@echo "... src/Node.o"
+	@echo "... src/Node.i"
+	@echo "... src/Node.s"
 	@echo "... src/js_fuzzer.o"
 	@echo "... src/js_fuzzer.i"
 	@echo "... src/js_fuzzer.s"

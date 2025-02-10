@@ -86,33 +86,33 @@ CMakeFiles/acc_fuzzing.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/acc_fuzzing.dir/src/main.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yuxuan/Documents/ACC-Fuzzing/src/main.cpp -o CMakeFiles/acc_fuzzing.dir/src/main.cpp.s
 
-CMakeFiles/acc_fuzzing.dir/src/acc_ucb.cpp.o: CMakeFiles/acc_fuzzing.dir/flags.make
-CMakeFiles/acc_fuzzing.dir/src/acc_ucb.cpp.o: /Users/yuxuan/Documents/ACC-Fuzzing/src/acc_ucb.cpp
-CMakeFiles/acc_fuzzing.dir/src/acc_ucb.cpp.o: CMakeFiles/acc_fuzzing.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/yuxuan/Documents/ACC-Fuzzing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/acc_fuzzing.dir/src/acc_ucb.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/acc_fuzzing.dir/src/acc_ucb.cpp.o -MF CMakeFiles/acc_fuzzing.dir/src/acc_ucb.cpp.o.d -o CMakeFiles/acc_fuzzing.dir/src/acc_ucb.cpp.o -c /Users/yuxuan/Documents/ACC-Fuzzing/src/acc_ucb.cpp
+CMakeFiles/acc_fuzzing.dir/src/ACCUCB.cpp.o: CMakeFiles/acc_fuzzing.dir/flags.make
+CMakeFiles/acc_fuzzing.dir/src/ACCUCB.cpp.o: /Users/yuxuan/Documents/ACC-Fuzzing/src/ACCUCB.cpp
+CMakeFiles/acc_fuzzing.dir/src/ACCUCB.cpp.o: CMakeFiles/acc_fuzzing.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/yuxuan/Documents/ACC-Fuzzing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/acc_fuzzing.dir/src/ACCUCB.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/acc_fuzzing.dir/src/ACCUCB.cpp.o -MF CMakeFiles/acc_fuzzing.dir/src/ACCUCB.cpp.o.d -o CMakeFiles/acc_fuzzing.dir/src/ACCUCB.cpp.o -c /Users/yuxuan/Documents/ACC-Fuzzing/src/ACCUCB.cpp
 
-CMakeFiles/acc_fuzzing.dir/src/acc_ucb.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/acc_fuzzing.dir/src/acc_ucb.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yuxuan/Documents/ACC-Fuzzing/src/acc_ucb.cpp > CMakeFiles/acc_fuzzing.dir/src/acc_ucb.cpp.i
+CMakeFiles/acc_fuzzing.dir/src/ACCUCB.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/acc_fuzzing.dir/src/ACCUCB.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yuxuan/Documents/ACC-Fuzzing/src/ACCUCB.cpp > CMakeFiles/acc_fuzzing.dir/src/ACCUCB.cpp.i
 
-CMakeFiles/acc_fuzzing.dir/src/acc_ucb.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/acc_fuzzing.dir/src/acc_ucb.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yuxuan/Documents/ACC-Fuzzing/src/acc_ucb.cpp -o CMakeFiles/acc_fuzzing.dir/src/acc_ucb.cpp.s
+CMakeFiles/acc_fuzzing.dir/src/ACCUCB.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/acc_fuzzing.dir/src/ACCUCB.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yuxuan/Documents/ACC-Fuzzing/src/ACCUCB.cpp -o CMakeFiles/acc_fuzzing.dir/src/ACCUCB.cpp.s
 
-CMakeFiles/acc_fuzzing.dir/src/context_tree.cpp.o: CMakeFiles/acc_fuzzing.dir/flags.make
-CMakeFiles/acc_fuzzing.dir/src/context_tree.cpp.o: /Users/yuxuan/Documents/ACC-Fuzzing/src/context_tree.cpp
-CMakeFiles/acc_fuzzing.dir/src/context_tree.cpp.o: CMakeFiles/acc_fuzzing.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/yuxuan/Documents/ACC-Fuzzing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/acc_fuzzing.dir/src/context_tree.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/acc_fuzzing.dir/src/context_tree.cpp.o -MF CMakeFiles/acc_fuzzing.dir/src/context_tree.cpp.o.d -o CMakeFiles/acc_fuzzing.dir/src/context_tree.cpp.o -c /Users/yuxuan/Documents/ACC-Fuzzing/src/context_tree.cpp
+CMakeFiles/acc_fuzzing.dir/src/Node.cpp.o: CMakeFiles/acc_fuzzing.dir/flags.make
+CMakeFiles/acc_fuzzing.dir/src/Node.cpp.o: /Users/yuxuan/Documents/ACC-Fuzzing/src/Node.cpp
+CMakeFiles/acc_fuzzing.dir/src/Node.cpp.o: CMakeFiles/acc_fuzzing.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/yuxuan/Documents/ACC-Fuzzing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/acc_fuzzing.dir/src/Node.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/acc_fuzzing.dir/src/Node.cpp.o -MF CMakeFiles/acc_fuzzing.dir/src/Node.cpp.o.d -o CMakeFiles/acc_fuzzing.dir/src/Node.cpp.o -c /Users/yuxuan/Documents/ACC-Fuzzing/src/Node.cpp
 
-CMakeFiles/acc_fuzzing.dir/src/context_tree.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/acc_fuzzing.dir/src/context_tree.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yuxuan/Documents/ACC-Fuzzing/src/context_tree.cpp > CMakeFiles/acc_fuzzing.dir/src/context_tree.cpp.i
+CMakeFiles/acc_fuzzing.dir/src/Node.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/acc_fuzzing.dir/src/Node.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yuxuan/Documents/ACC-Fuzzing/src/Node.cpp > CMakeFiles/acc_fuzzing.dir/src/Node.cpp.i
 
-CMakeFiles/acc_fuzzing.dir/src/context_tree.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/acc_fuzzing.dir/src/context_tree.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yuxuan/Documents/ACC-Fuzzing/src/context_tree.cpp -o CMakeFiles/acc_fuzzing.dir/src/context_tree.cpp.s
+CMakeFiles/acc_fuzzing.dir/src/Node.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/acc_fuzzing.dir/src/Node.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yuxuan/Documents/ACC-Fuzzing/src/Node.cpp -o CMakeFiles/acc_fuzzing.dir/src/Node.cpp.s
 
 CMakeFiles/acc_fuzzing.dir/src/js_fuzzer.cpp.o: CMakeFiles/acc_fuzzing.dir/flags.make
 CMakeFiles/acc_fuzzing.dir/src/js_fuzzer.cpp.o: /Users/yuxuan/Documents/ACC-Fuzzing/src/js_fuzzer.cpp
@@ -131,16 +131,16 @@ CMakeFiles/acc_fuzzing.dir/src/js_fuzzer.cpp.s: cmake_force
 # Object files for target acc_fuzzing
 acc_fuzzing_OBJECTS = \
 "CMakeFiles/acc_fuzzing.dir/src/main.cpp.o" \
-"CMakeFiles/acc_fuzzing.dir/src/acc_ucb.cpp.o" \
-"CMakeFiles/acc_fuzzing.dir/src/context_tree.cpp.o" \
+"CMakeFiles/acc_fuzzing.dir/src/ACCUCB.cpp.o" \
+"CMakeFiles/acc_fuzzing.dir/src/Node.cpp.o" \
 "CMakeFiles/acc_fuzzing.dir/src/js_fuzzer.cpp.o"
 
 # External object files for target acc_fuzzing
 acc_fuzzing_EXTERNAL_OBJECTS =
 
 acc_fuzzing: CMakeFiles/acc_fuzzing.dir/src/main.cpp.o
-acc_fuzzing: CMakeFiles/acc_fuzzing.dir/src/acc_ucb.cpp.o
-acc_fuzzing: CMakeFiles/acc_fuzzing.dir/src/context_tree.cpp.o
+acc_fuzzing: CMakeFiles/acc_fuzzing.dir/src/ACCUCB.cpp.o
+acc_fuzzing: CMakeFiles/acc_fuzzing.dir/src/Node.cpp.o
 acc_fuzzing: CMakeFiles/acc_fuzzing.dir/src/js_fuzzer.cpp.o
 acc_fuzzing: CMakeFiles/acc_fuzzing.dir/build.make
 acc_fuzzing: CMakeFiles/acc_fuzzing.dir/link.txt

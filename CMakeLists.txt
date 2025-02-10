@@ -4,8 +4,8 @@ project(acc_fuzzing)
 set(CMAKE_CXX_STANDARD 20)
 set(SOURCE_FILES
         src/main.cpp
-        src/acc_ucb.cpp
-        src/context_tree.cpp
+        src/ACCUCB.cpp
+        src/Node.cpp
         src/js_fuzzer.cpp
 )
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
